@@ -51,3 +51,7 @@ To use in your script:
 source ~/.bashark/bashark.sh
 ```
 or change `~/.bashark` to your custom location.
+
+### Thanks!
+
+[TTY Gif](https://github.com/icholy/ttygif) - for helping me create GIF animations from my terminal
