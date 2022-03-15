@@ -19,4 +19,4 @@ echo This will be light orange
 echo $(color 190)This is light yellow$(color 171) and light purple, ${NORMAL}back to normal.
 
 ```
-![Inline colors](https://github.com/moshegottlieb/bashark/blob/master/cap1.png?raw=true)
+![Inline colors](https://github.com/moshegottlieb/bashark/blob/master/examples/screenshots/cap1.png?raw=true)
