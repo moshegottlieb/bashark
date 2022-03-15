@@ -19,10 +19,4 @@ echo This will be light orange
 echo $(color 190)This is light yellow$(color 171) and light purple, ${NORMAL}back to normal.
 
 ```
-
-<div style="background-color=#000">
-<pr>
-<font color="#F5A718">This will be light orange</font>
-<font color="#CBF711">This will be light yellow</font><font color="##E854FE">&nbsp;and light purple,</font>&nbsp;<font color="white">back to normal.</font>
-</pr>
-</div>
+![Inline colors](https://github.com/moshegottlieb/bashark/blob/master/cap1.png?raw=true)
