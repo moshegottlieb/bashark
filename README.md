@@ -20,3 +20,6 @@ echo $(color 190)This is light yellow$(color 171) and light purple, ${NORMAL}bac
 
 ```
 ![Inline colors](https://github.com/moshegottlieb/bashark/blob/master/examples/screenshots/cap1.png?raw=true)
+
+Here's a useful colormap
+![Color map](https://github.com/moshegottlieb/bashark/blob/master/examples/screenshots/cap2.png?raw=true)
