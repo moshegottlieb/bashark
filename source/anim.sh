@@ -3,7 +3,7 @@
 SHARED_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 . "${SHARED_DIR}/bashark.sh"
 
-case $(($RANDOM % 13)) in
+case $(($RANDOM % 15)) in
 0)
     ANIM=("|" "/" "-" "\\")
     ;;
@@ -42,6 +42,12 @@ case $(($RANDOM % 13)) in
     ;;
 12)
     ANIM=(☰ ☱ ☳ ☷ ☶ ☴ ☰ ☴ ☶ ☷ ☳ ☱)
+    ;;
+13)
+    ANIM=(𛱳 𛱳 𛱴 𛱴 𛱵 𛱵 𛱴 𛱴)
+    ;;
+14)
+    ANIM=(⣿ ⣾ ⣽ ⣻ ⢿ ⡿ ⣟ ⣯ ⣷)
     ;;
 esac
 
