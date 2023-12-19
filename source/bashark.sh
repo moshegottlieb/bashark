@@ -93,8 +93,9 @@ function cmd {
     "${SHARED_DIR}/anim.sh" &
     ANIM_PID=$!
 
-    trap "kill ${ANIM_PID} 2>/dev/null" INT TERM
+    trap "kill ${ANIM_PID} 2>/dev/null" TERM
     trap "kill ${ANIM_PID} 2>/dev/null" EXIT
+	trap "kill ${ANIM_PID} 2>/dev/null" INT
 
     wait "${PID}"
     RET=$?
